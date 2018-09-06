@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Display.css';
 
 const Display = ({displayValue}) => {
   return (
@@ -9,7 +8,8 @@ const Display = ({displayValue}) => {
         {displayValue}
       </p>
     </div>
-)};
+  );
+}
 
 Display.propTypes = {displayValue: PropTypes.string.isRequired};
 

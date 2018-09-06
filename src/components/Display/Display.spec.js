@@ -5,9 +5,9 @@ import Display from './Display';
 describe('Display', () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = shallow(<Display displayValue={''} />)
+    wrapper = shallow(<Display displayValue={''}/>);
   });
-
+  
   it('should render correctly', () => {
     expect(wrapper).toMatchSnapshot();
   });
@@ -16,8 +16,8 @@ describe('Display', () => {
     expect(wrapper.find('div').length).toEqual(1);
   });
 
-  it('renders the value of displayValue', () => {
+  it('renders the value of displayVlaue', () => {
     wrapper.setProps({displayValue: 'test'});
-    expect(wrapper.text()).toEqual('test');;
+    expect(wrapper.text()).toEqual('test');
   });
 });
