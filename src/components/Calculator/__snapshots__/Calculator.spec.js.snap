@@ -17,38 +17,45 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Display
-        displayValue="0"
+      "children": Array [
+        <Display
+          displayValue="0"
 />,
+        <Keypad
+          callOperator={[Function]}
+          numbers={
+                    Array [
+                              "9",
+                              "8",
+                              "7",
+                              "6",
+                              "5",
+                              "4",
+                              "3",
+                              "2",
+                              "1",
+                              ".",
+                              "0",
+                              "ce",
+                            ]
+          }
+          operators={
+                    Array [
+                              "/",
+                              "x",
+                              "-",
+                              "+",
+                            ]
+          }
+          setOperator={[Function]}
+          updateDisplay={[Function]}
+/>,
+      ],
       "className": "calculator-container",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "displayValue": "0",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <Display
-          displayValue="0"
-/>,
-        "className": "calculator-container",
-      },
-      "ref": null,
-      "rendered": Object {
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
@@ -59,6 +66,131 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "callOperator": [Function],
+          "numbers": Array [
+            "9",
+            "8",
+            "7",
+            "6",
+            "5",
+            "4",
+            "3",
+            "2",
+            "1",
+            ".",
+            "0",
+            "ce",
+          ],
+          "operators": Array [
+            "/",
+            "x",
+            "-",
+            "+",
+          ],
+          "setOperator": [Function],
+          "updateDisplay": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Display
+            displayValue="0"
+/>,
+          <Keypad
+            callOperator={[Function]}
+            numbers={
+                        Array [
+                                    "9",
+                                    "8",
+                                    "7",
+                                    "6",
+                                    "5",
+                                    "4",
+                                    "3",
+                                    "2",
+                                    "1",
+                                    ".",
+                                    "0",
+                                    "ce",
+                                  ]
+            }
+            operators={
+                        Array [
+                                    "/",
+                                    "x",
+                                    "-",
+                                    "+",
+                                  ]
+            }
+            setOperator={[Function]}
+            updateDisplay={[Function]}
+/>,
+        ],
+        "className": "calculator-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "displayValue": "0",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "callOperator": [Function],
+            "numbers": Array [
+              "9",
+              "8",
+              "7",
+              "6",
+              "5",
+              "4",
+              "3",
+              "2",
+              "1",
+              ".",
+              "0",
+              "ce",
+            ],
+            "operators": Array [
+              "/",
+              "x",
+              "-",
+              "+",
+            ],
+            "setOperator": [Function],
+            "updateDisplay": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],

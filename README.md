@@ -2,10 +2,6 @@
 
 ## Local Setup
 ```sh
-$ cd react-calculator
-```
-
-```sh
 $ yarn install
 ```
 
